@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Google search functionality" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-13T02:11:05" hostname="DESKTOP-USEE3KR" time="0.128">
+  <properties/>
+  <testcase name="As a user I enter a search criteria" classname="Test Google search functionality" time="0.128"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
