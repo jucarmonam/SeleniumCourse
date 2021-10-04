@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-03T23:17:46.494Z",
+        "line": 13,
+        "name": "As a Test Enginner, I want to validate that a text is present inside the list.",
+        "description": "",
+        "id": "i-can-find-a-city-inside-a-state.;as-a-test-enginner--i-want-to-validate-that-a-text-is-present-inside-the-list.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1731118000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the list page",
+            "match": {
+              "location": "steps.ListSteps.navigateToListPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 847992400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search Washington in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Washington",
+                  "offset": 9
+                }
+              ],
+              "location": "steps.ListSteps.searchTheList(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 344025000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can find Seattle, Washington in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Seattle, Washington",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.ListSteps.theTableIsThere(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@List"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-03T23:17:49.531Z",
+        "line": 14,
+        "name": "As a Test Enginner, I want to validate that a text is present inside the list.",
+        "description": "",
+        "id": "i-can-find-a-city-inside-a-state.;as-a-test-enginner--i-want-to-validate-that-a-text-is-present-inside-the-list.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52011500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the list page",
+            "match": {
+              "location": "steps.ListSteps.navigateToListPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 859106600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search Chicago in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chicago",
+                  "offset": 9
+                }
+              ],
+              "location": "steps.ListSteps.searchTheList(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19999000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can find Chicago, Illinois in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chicago, Illinois",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.ListSteps.theTableIsThere(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@List"
+          }
+        ]
+      }
+    ],
+    "name": "I can find a city inside a state.",
+    "description": "",
+    "id": "i-can-find-a-city-inside-a-state.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ListPageTests.feature",
+    "tags": []
+  }
+]

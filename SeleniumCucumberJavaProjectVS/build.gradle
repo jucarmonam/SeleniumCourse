@@ -5,7 +5,7 @@ plugins{
 group 'CursoUdemy'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 13
+sourceCompatibility = 11
 
 dependencies {
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
@@ -14,7 +14,14 @@ dependencies {
     implementation group: 'io.cucumber', name: 'cucumber-java', version: '6.11.0'
     testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '6.11.0'
     implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.32'
+    implementation group: 'tech.grasshopper', name: 'extentreports-cucumber6-adapter', version: '2.8.4'
 
+}
+
+//con esto le decimos que podemos usar las opciones o tareas que queramos de cucumber
+// desde la linea de comandos
+test{
+    systemProperty "cucumber.options", System.getProperty("cucumber.options")
 }
 
 repositories {

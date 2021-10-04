@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test different actions on the Static Table page." tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-03T22:20:01" hostname="DESKTOP-USEE3KR" time="5.951">
+  <properties/>
+  <testcase name="As a Test Enginner, I want to retrieve  the value of an static table." classname="Test different actions on the Static Table page." time="3.992"/>
+  <testcase name="As a Test Enginner, I want to validate the static table is displayed." classname="Test different actions on the Static Table page." time="1.959"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 10136
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633299603.155][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+oct. 03, 2021 5:20:03 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

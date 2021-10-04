@@ -1,0 +1,3 @@
+ejecutar un test con un tag: gradle test -Dcucumber.options="--tags @Grid"
+
+ejectuar mas de un test con diferentes tags: gradle test -Dcucumber.options="--tags @Grid, --tags @Smoke"

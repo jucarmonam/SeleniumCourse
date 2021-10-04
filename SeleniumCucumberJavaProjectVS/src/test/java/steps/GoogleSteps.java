@@ -1,5 +1,7 @@
 package steps;
 
+import org.junit.Assert;
+
 import io.cucumber.java.en.*;
 import pages.GooglePage;
 
@@ -14,16 +16,17 @@ public class GoogleSteps {
 
     @When("^I enter a search criteria$")
     public void enterSearchCriteria(){
-
+        google.enterSearchCriteria("Google");
     }
 
     @And("^click on the search button$")
     public void clickSearchButton(){
-
+        google.clickGoogleSearch();
     }
 
     @Then("^the results match the criteria$")
     public void validateResults(){
-
+        //aqui comparamos los dos textos y lo validamos
+        Assert.assertEquals("Texto que esperamos", google.firstResult());
     }
 }

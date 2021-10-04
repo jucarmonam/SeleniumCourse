@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test different actions on a sandbox page." tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-03T21:16:57" hostname="DESKTOP-USEE3KR" time="3.101">
+  <properties/>
+  <testcase name="As a Test Enginner, I want to validate that a text is present inside the list." classname="Test different actions on a sandbox page." time="3.101"/>
+  <system-out><![CDATA[The text is on the list: PASSED.
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 40082
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1633295818.803][WARNING]: This version of ChromeDriver has not been tested with Chrome version 94.
+oct. 03, 2021 4:16:58 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

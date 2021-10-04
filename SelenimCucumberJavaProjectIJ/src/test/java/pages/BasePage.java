@@ -13,6 +13,7 @@ public class BasePage {
     static {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\carju\\Desktop\\CursoSelenium\\chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.setHeadless(true);
         //un solo driver que podremos usar en las demas paginas
         driver = new ChromeDriver(chromeOptions);
         //le pasamos el driver y le indicamos el tiempo que va a esperar
